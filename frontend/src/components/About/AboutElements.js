@@ -352,7 +352,7 @@ export const AboutIcon = styled.img`
 
 export const AboutIcon2 = styled.img`
   height:765px;
-  width: 80px;
+  width: 140px;
   margin: 0px;
   padding: 0px;
 

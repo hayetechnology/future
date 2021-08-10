@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon1 from '../../images/stock5.png';
-import Icon2 from '../../images/stock6.png';
+import Icon2 from '../../images/new_logo.png';
 import {
   AboutContainer,
   AboutWrapper,
@@ -27,7 +27,7 @@ const About = () => {
       </AboutContLeft>
       <AboutContMiddle>
         <AboutContTop>
-          <AboutH1>Our Story</AboutH1>
+          <AboutH1>My Story</AboutH1>
         </AboutContTop>
         <AboutContBottom>
           <AboutContTop2>

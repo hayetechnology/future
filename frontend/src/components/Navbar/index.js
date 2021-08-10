@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import Icon1 from '../../images/future_logo.png';
+import Icon1 from '../../images/isse_logo.png';
 import {
   MobileIcon,
   Nav,

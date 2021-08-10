@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
-import { Button } from '../ButtonElements';
-
 import Video from '../../videos/video.mp4';
-import Icon1 from '../../images/future_text_logo.png';
+import GradPhoto from '../../images/grad_pic.JPG';
+import AwardPhoto from '../../images/Award.png';
+import EducationPhoto from '../../images/Education.png'
 import {
-  HeroContainer,
-  HeroBg,
-  VideoBg,
-  HeroContent,
-  HeroIcon,
-  HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight
+  AboutContainer,
+  AboutWrapper,
+  AboutBg,
+  AboutVideoBg,
+  About,
+  AboutLeftCard,
+  PhotoIcon,
+  AwardIcon,
+  AboutRight,
+  EducationIcon,
+  AboutCardTop,
+  AboutCardBottom,
+  AboutH1,
+  AboutH2,
+  AboutH4
 } from './HeroElements';
 
 function HeroSection() {
@@ -22,33 +28,32 @@ function HeroSection() {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='home'>
-      <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
-      </HeroBg>
-      <HeroContent>
-        <HeroIcon src={Icon1}></HeroIcon>
-        <HeroP>
-        Black owned and black operated, make future1community your number one choice to fulfill your grant writing and diversity training services needs.
-        </HeroP>
-        <HeroBtnWrapper>
-          <Button
-            to='team'
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-            primary='true'
-            dark='true'
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-          >
-            Meet our Team {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
-        </HeroBtnWrapper>
-      </HeroContent>
-    </HeroContainer>
+    <AboutContainer id='home'>
+    <AboutBg>
+      <AboutVideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+    </AboutBg>
+    <AboutWrapper>
+    <About>
+      <AboutLeftCard>
+        <PhotoIcon src={GradPhoto}></PhotoIcon>
+        <AboutH1>Isse H Nur</AboutH1>
+      </AboutLeftCard>
+      <AboutRight>
+        <AboutCardTop>
+          <AboutH2>Education</AboutH2>
+          <EducationIcon src={EducationPhoto}></EducationIcon>
+          <AboutH4>Degree: BS in Computer Science</AboutH4>
+          <AboutH4>Date Graduated: December 15 2020</AboutH4>
+        </AboutCardTop>
+        <AboutCardBottom>
+          <AboutH2>Awards</AboutH2>
+          <AwardIcon src={AwardPhoto}></AwardIcon>
+          <AboutH4>Phi Theta Kappa Honors Society</AboutH4>
+        </AboutCardBottom>
+      </AboutRight>
+    </About>
+    </AboutWrapper>
+    </AboutContainer>
   );
 }
 

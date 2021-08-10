@@ -7,7 +7,7 @@ import {
   FaLinkedin
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import Icon1 from '../../images/future_logo.png';
+import Icon1 from '../../images/isse_logo2.png';
 import {
   FooterContainer,
   FooterWrap,

@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
-export const HeroContainer = styled.div`
+export const AboutContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  min-height: 1000px;
+  min-height: 760px;
   position: relative;
   z-index: 1;
 
@@ -36,7 +35,7 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const HeroBg = styled.div`
+export const AboutBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -47,7 +46,12 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const H1Dive = styled.div`
+  padding:0px;
+  margin: 0px;
+`
+
+export const AboutVideoBg = styled.video`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -55,83 +59,112 @@ export const VideoBg = styled.video`
   background: #232a34;
 `;
 
-export const HeroContent = styled.div`
+export const AboutWrapper = styled.div`
+  display: flex;
+  
+`
+
+export const About = styled.div`
   z-index: 3;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
+  display: grid;
+  grid-gap: 0 px;
+  grid-template-columns: 50% 50%;
+  padding: 0 px;
+  margin: 0 px;
+`;
+
+
+export const AboutLeftCard = styled.div`
+  font-family:'Space Mono', monospace;
+  height: 616px;
+  width: 400px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-
-  @media screen and (max-width: 480px) {
-    height: 800px;
-    max-width:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 px;
-    margin: 0 px;
-    //background-color:#ff52ee;
-    //pink
-  }
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 2px;
+  background-color:rgb(255, 255, 255);
 `;
 
-export const HeroH1 = styled.h1`
-  color: #fff;
-  font-size: 48px;
-  text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
-
-export const HeroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-  max-width: 600px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
-
-  @media screen and (max-width: 480px) {
-    font-size: 18px;
-  }
-`;
-export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
+export const AboutRight = styled.div`
+  font-family:'Space Mono', monospace;
   display: flex;
+  height:618px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  border-radius: 8px;
+  margin:1px;
+  background-color: rgba(255, 255, 255, 0);
+`;
+
+
+export const AboutCardTop = styled.div`
+  font-family:'Space Mono', monospace;
+  height: 310px;
+  width:360px;
+  display: flex;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  box-shadow:0px 0px 2px rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
-  margin-left: 8px;
-  font-size: 20px;
-`;
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-  margin-left: 8px;
-  font-size: 20px;
-`;
-
-export const HeroIcon = styled.img`
-  justify-self: flex-start;
-  cursor: pointer;
+export const AboutCardBottom = styled.div`
+  font-family:'Space Mono', monospace;
+  height:300px;
+  width:360px;
+  display: flex;
+  text-align: center;
   align-items: center;
-  height: 80px;
-
-  @media screen and (max-width: 480px) {
-    width:300px;
-    font-size: 18px;
-  }
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  box-shadow:0px 0px 2px rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
 `;
+
+export const PhotoIcon = styled.img`
+  height: 562px;
+  width: 380px;
+  border-radius: 10px;
+`;
+
+export const AwardIcon = styled.img`
+  height: 250px;
+  width: 220px;
+  border-radius: 10px;
+`;
+
+export const EducationIcon = styled.img`
+  height: 210px;
+  width: 300px;
+  border-radius: 10px;
+`;
+
+export const AboutH1 = styled.h1`
+  color: #000;
+`;
+
+export const AboutH2 = styled.h2`
+  background-color:rgba(0, 0, 0, 0);
+  color:#000;
+  background: rgba(0, 0, 0, 0);
+  font-family:'Space Mono', monospace;
+`;
+
+export const AboutH4 = styled.h4`
+  background-color:rgba(0, 0, 0, 0);
+  color: #000;
+  background: rgba(0, 0, 0, 0);
+  font-family:'Space Mono', monospace;
+`;
+
+
