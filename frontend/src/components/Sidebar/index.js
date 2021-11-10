@@ -6,8 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  SidebarLink2,
-  
+  SidebarLink2 
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -30,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             About
           </SidebarLink>
           <SidebarLink
-            to='service'
+            to='demo'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -38,10 +37,10 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Services
+            Demos
           </SidebarLink>
           <SidebarLink
-            to='team'
+            to='github'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -49,7 +48,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Team
+            Github
           </SidebarLink>
           <SidebarLink2
             to='/contact'
@@ -64,7 +63,6 @@ const Sidebar = ({ isOpen, toggle }) => {
   
           </SidebarLink2>
         </SidebarMenu>
-
       </SidebarWrapper>
     </SidebarContainer>
   );

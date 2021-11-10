@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import emailjs from 'emailjs-com';
-import IconPic from '../../images/isse_logo2.png';
+import IconPic from '../../images/IsseLogo2.png';
 import {
   ContactContainer,
   ContactWrapper,

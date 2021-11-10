@@ -1,147 +1,99 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  height: 800px;
+  min-height: 800px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding: 0px;
   margin: 0px;
-  background-color: #0a0a0a;
   //background-color:#ff52ee; 
   //pink
-
   
   @media screen and (max-width: 480px) {
     height: 1000px;
+    width: auto;
     display: flex;
-    max-width:auto;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 0px;
     margin: 0px;
-    background-color: #0a0a0a;
-    //background-color:#ff52ee;
+    //background-color:#ff52ee; 
     //pink
   }
 `;
 
 export const AboutWrapper = styled.div`
-  max-height:800px;
-  height: 800px;
-  width:1500px;
-  display: grid;
-  grid-gap: 0px;
-  padding: 0px;
-  margin: 0px;
-  grid-template-columns: 15% 70% 15%;
-  //background-color:#002463; 
-  //darkblue 
+    max-height: 644px;
+    height: 644px;
+    display: flex;
+    padding:0px;
+    margin: 0px;
+    //background-color:#002463; 
+    //darkblue 
 
   @media screen and (max-width: 480px) {
-    max-height: 1000px;
-    max-width:100%;
     height: 1000px;
-    display: grid;
-    grid-gap: 0 px;
-    grid-template-columns: 15% 70% 15%;
-    padding: 0 px;
-    margin: 0 px;
-    //background-color: #002463; 
-    //darkblue 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding:0px;
+    margin: 0px;
+    //background-color:#002463; 
+    //darkblue
   }
 `;
 
-export const AboutContLeft = styled.div`
-  max-height:800px;
-  max-width:1500px;
-  height:100%;
-  width:100%;
+export const AboutLeftCont = styled.div`
+  max-height:644px;
+  height: auto;
+  width: 2700px;
   display: flex;
   justify-content: center;
-  align-items: start;
-  grid-gap: 0px;
-  padding: 0px 0px 0px 0px;
+  align-items: center;
+  padding:0px;
   margin: 0px;
+  background-color: #0a0a0a;
   //background-color:#6e0000; 
   //darkred
     
   @media screen and (max-width: 480px) {
-      max-height:1000px;
-      height:100%;
-      width:100%;
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      grid-gap: 0px;
-      padding: 0px 0px 0px 0px;
-      margin: 0px;
-      //background-color:#6e0000;
-      //darkred
-    }
+    display: none;
+  }
 `;
 
-export const AboutContMiddle = styled.div`
-  max-height:800px;
-  max-width:1424px;
-  height:100%;
-  width:100%;
+export const AboutMiddleCont = styled.div`
+  height: auto;
+  width: 850px;
   display: grid;
   grid-gap: 0px;
-  grid-template-rows: 15% 85%;
+  grid-template-rows: 15% 42.5% 42.5%;
   justify-content: center;
   align-items: center;
   grid-gap: 0px;
   padding: 0px;
   margin: 0px;
+  background-color: #0a0a0a;
   //background-color: #3a0096; 
   //purpleblue
 
   @media screen and (max-width: 480px) {
-    max-height:1000px;
-    height:100%;
-    width:100%;
-    display: grid;
-    grid-gap: 0px;
-    grid-template-rows: 15% 85%;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 0px;
-    padding: 0px 24px 0px 0px;
-    margin: 0px;
-    //background-color: #3a0096; 
-    //purpleblue
-  }
-`;
-
-export const AboutContRight = styled.div`
-  height:1000px;
-  height:100%;
-  width:100%;
+  height: 800px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: start;
-  padding: 0px 0px 0px 0px;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
   margin: 0px;
-  //background-color: #fcfc03;
-  //yellow
-  
-  @media screen and (max-width: 480px) {
-    height:709px;
-    height:100%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    grid-gap: 0px;
-    padding: 118px 0px 0px 24px;
-    margin: 0px;
-    //background-color: #fcfc03;
-    //yellow
+  background-color: #0a0a0a;
+  //background-color: #3a0096; 
+  //purpleblue
   }
 `;
 
-export const AboutContTop = styled.div`
+export const AboutTopCont = styled.div`
   height:100%;
   width:100%;
   display: flex;
@@ -153,217 +105,224 @@ export const AboutContTop = styled.div`
   //gold
   
   @media screen and (max-width: 480px) {
-    height: 100%;
-    width: 100%;
+    height:20px;
+    width:100%;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-self: end;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    margin: 0px;
+    margin-bottom: 16px;
     //background-color:#d4a200;
     //gold
   }
 `;
 
-export const AboutContBottom = styled.div`
-  height: 709px; 
-  height:100%;
-  width:100%;
-  display: grid;
-  grid-gap: 0px;
-  grid-template-rows: 50% 50%;
-  padding: 0px 42px 24px 48px;
-  margin: 0px;
-  //background-color: #00aac4; 
-  //teal
-
-  @media screen and (max-width: 480px) {
-    height: 709px; 
-    height:100%;
-    min-width:319px;
-    width:100%;
-    display: grid;
-    grid-gap: 0px;
-    grid-template-rows: 50% 50%;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    //background-color: #00aac4; 
-    //teal
-  }
-`;
-
 export const AboutH1 = styled.h1`
-  font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
+  font-family:  'Space Mono', monospace;
+  font-size: 2.2rem;
   padding: 0px 0px 0px 0px;
   margin: 0 px;
   color: #fff;
 
   @media screen and (max-width: 480px) {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
-    height:100%;
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:flex-end;
+    font-family:  'Space Mono', monospace;
+    font-size: 1.75rem;
     padding: 0px 0px 0px 0px;
-    margin: 0px;
+    margin: 0 px;
     color: #fff;
   }
 `;
 
-export const AboutContTop2 = styled.div`
-  height:100%;
-  width:100%;
+export const AboutMiddleCard = styled.div`
+  height:190px;
+  width:800px;
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  padding: 0px 70px 0px 70px;
-  margin: 0px;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  box-shadow:0px 0px 2px rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
   //background-color: #cfcfcf;
   //lightgray
 
   @media screen and (max-width: 480px) {
-    height:100%;
-    width:100%;
+    height:360px;
+    width:240px;
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
-    padding: 0px 8px 24px 8px;
-    margin: 0px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    box-shadow:0px 0px 2px rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     //background-color: #cfcfcf;
     //lightgray
   }
 `;
 
-export const AboutContBottom2 = styled.div`
-  height:100%;
-  width:100%;
+export const AboutMiddleCardIn = styled.div`
+  height:180px;
+  width:786px;
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
-  padding: 0px 70px 0px 70px;
-  margin: 0px;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 2px;
+  background-color:#dbdbdb;
   //background-color: #00e817; 
   //lightgreen
   
   @media screen and (max-width: 480px) {
-    height:100%;
-    width:100%;
+    height:350px;
+    width:230px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px 8px 0px 8px;
-    margin: 0px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 2px;
+    background-color:#dbdbdb;
     //background-color: #00e817; 
     //lightgreen
   }
 `;
 
-export const AboutH2Top = styled.p`
-  font-family: 'Roboto', sans-serif;
+export const AboutTopH2 = styled.p`
+  font-family: 'Space Mono', monospace;
   font-weight: 549;
   text-align: center;
   padding: 48px 32px 0px 16px;
   margin: 0px;
-  font-size: 1.25rem;
-  color:#fff;
-
-  @media screen and (max-width: 1000px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    font-size: 1rem;
-    color:#fff;
-  }
+  font-size: 1rem;
+  color:#000;
 
   @media screen and (max-width: 480px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    font-size: 0.75rem;
-    color:#fff;
-  }
-
-  
-  @media screen and (max-width: 360px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 42px 0px 42px;
-    margin: 0px;
-    font-size: 0.75rem;
-    color:#fff;
-  }
-`;
-
-export const AboutH2Bottom = styled.p`
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-weight: 549;
   text-align: center;
-  padding: 0px 32px 48px 26px;
+  padding: 48px 32px 0px 16px;
   margin: 0px;
-  font-size: 1.25rem;
-  color:#fff;
-
-  @media screen and (max-width: 1000px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    font-size: 1rem;
-    color:#fff;
+  font-size: 0.9rem;
+  color:#000;
   }
+`;
+
+export const AboutBottomCard = styled.div`
+  height:190px;
+  width:800px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow:0px 0px 2px rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  //background-color: #00e817; 
+  //lightgreen
   
   @media screen and (max-width: 480px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    font-size: 0.75rem;
-    color:#fff;
-  }
-
-  @media screen and (max-width: 360px) {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 0px 42px 0px 42px;
-    margin: 0px;
-    font-size: 0.75rem;
-    color:#fff;
-  }
+    height:360px;
+    width:240px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow:0px 0px 2px rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    //background-color: #00e817; 
+    //lightgreen
+    }
 `;
 
-export const AboutIcon = styled.img`
-  height:664px;
-  width:216px;
-  margin: 0px;
-  padding: 0px;
-  border-radius: 10px;
+export const AboutBottomCardIn = styled.div`
+  height:180px;
+  width:786px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 2px;
+  background-color:#dbdbdb;
+  //background-color: #00e817; 
+  //lightgreen
   
   @media screen and (max-width: 480px) {
-    display: none;
+    height:350px;
+    width:230px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 2px;
+    background-color:#dbdbdb;
+    //background-color: #00e817; 
+    //lightgree
   }
 `;
 
-export const AboutIcon2 = styled.img`
-  height:765px;
-  width: 140px;
+export const AboutBottomH2 = styled.p`
+  font-family:'Space Mono', monospace;
+  font-weight: 529;
+  text-align: center;
+  padding: 24px 32px 0px 26px;
   margin: 0px;
-  padding: 0px;
-
+  font-size: 1rem;
+  color:#000;
 
   @media screen and (max-width: 480px) {
-    height: 560px;
-    width: 58px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 549;
+    text-align: center;
+    padding: 48px 32px 0px 16px;
     margin: 0px;
-    padding: 0px;
+    font-size: 0.9rem;
+    color:#000;
   }
 `;
 
+export const AboutRightCont = styled.div`
+  height:auto;
+  width:2700px;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  background-color: #0a0a0a;
+  //background-color: #fcfc03;
+  //yellow
+  
+  @media screen and (max-width: 480px) {
+    height:800px;
+    width:70px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    background-color: #0a0a0a;
+    //background-color: #fcfc03;
+    //yellow
+  }
+`;
 
-
+export const AboutHiddenIcon = styled.img`
+  height:642px;
+  width:220px;
+  visibility: hidden;
+ 
+  @media screen and (max-width: 480px) {
+    height:800px;
+    width:50px;
+    visibility: hidden;
+  }
+`;

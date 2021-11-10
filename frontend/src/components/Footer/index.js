@@ -7,7 +7,7 @@ import {
   FaLinkedin
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import Icon1 from '../../images/isse_logo2.png';
+import Icon1 from '../../images/IsseLogo2.png';
 import {
   FooterContainer,
   FooterWrap,
@@ -35,7 +35,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               <FooterIcon src={Icon1}/>
             </SocialLogo>
-            <WebsiteRights>future1community © 2021 All rights reserved.</WebsiteRights>
+            <WebsiteRights>issenur portfolio © 2021.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

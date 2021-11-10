@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import Icon1 from '../../images/isse_logo.png';
+import Icon1 from '../../images/IsseLogo1.png';
 import {
   MobileIcon,
   Nav,
@@ -60,32 +60,32 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='service'
+                  to='demo'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Services
+                  Demos
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='team'
+                  to='github'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Team
+                  Github
                 </NavLinks>
               </NavItem>
               <NavItem >
                 <NavLinks>
                   <NavBtn onClick={toggleHome} to='/contact'>
-                    Contact Us 
+                    Contact Me 
                   </NavBtn>
                 </NavLinks>
               </NavItem>

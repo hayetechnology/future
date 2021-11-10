@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import HeroSection from '../components/HeroSection';
+import Home from '../components/Home';
 import About from '../components/About';
-import Team from '../components/Team';
-import Service from '../components/Service';
+import Github from '../components/Github';
+import Demo from '../components/Demo';
 
-function Home() {
+
+function Home1() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -18,13 +19,13 @@ function Home() {
     <React.Fragment>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <HeroSection />
+      <Home/>
       <About/>
-      <Service/>
-      <Team /> 
+      <Demo/>
+      <Github /> 
       <Footer />
     </React.Fragment>
   );
 }
 
-export default Home;
+export default Home1;
