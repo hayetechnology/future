@@ -15,7 +15,7 @@ export default class APIService {
 
     static GetResume(body) {
 
-        return  fetch('http://127.0.0.1:8000/api/resume/4/', {
+        return  fetch('http://127.0.0.1:8000/api/resumes/1/', {
             'method':'GET',
             headers: {
                 'Content-Type':'application/pdf',
