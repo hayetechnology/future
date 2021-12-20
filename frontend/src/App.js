@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
 import ContactPage from './pages/contact';
-import UploadPage from './pages/upload';
+import ResumePage from './pages/resume';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/contact' component={ContactPage} exact />
-        <Route path='/upload' component={UploadPage} exact />
+        <Route path='/resume' component={ResumePage} exact />
       </Switch>
     </Router>
   );

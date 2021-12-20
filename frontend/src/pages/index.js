@@ -7,7 +7,6 @@ import About from '../components/About';
 import Github from '../components/Github';
 import Demo from '../components/Demo';
 
-
 function Home1() {
   const [isOpen, setIsOpen] = useState(false);
 

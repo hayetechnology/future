@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import { Link } from 'react-scroll';
-import { GrDownload } from "react-icons/gr";
+import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR } from 'react-router-dom';
+import { GrDocumentPdf } from "react-icons/gr";
 import { MdDone } from "react-icons/md";
 export const HomeContainer = styled.div`
   background: #0c0c0c;
@@ -48,6 +49,19 @@ export const HomeBg = styled.div`
   overflow: none;
 `;
 
+export const NavLinks = styled(LinkS)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #bf0101;
+  }
+`;
 
 export const HomeVideoBg = styled.video`
   height: 100%;
@@ -237,7 +251,7 @@ export const HomeResumeCardIn = styled.div`
   }
 `;
 
-export const HomeDownloadIcon = styled(GrDownload)`
+export const HomeDownloadIcon = styled(GrDocumentPdf)`
   margin-left: 8px;
   font-size: 20px;
 `;
@@ -247,7 +261,7 @@ export const HomeDoneIcon = styled(MdDone)`
   font-size: 20px;
 `;
 
-export const HomeButtonD = styled(Link)`
+export const HomeButtonD = styled(LinkR)`
   font-family: 'Space Mono', monospace;
   font-weight: 530;
   display: flex;
@@ -255,7 +269,7 @@ export const HomeButtonD = styled(Link)`
   align-items: center;
   color: #000;
   font-size: 16px;
-  padding: 12px 30px;
+  padding: 12px 24px;
   background: #18c956;
   border-radius: 10px;
   border: none;
@@ -345,7 +359,7 @@ export const HomeEduCard = styled.div`
 
 export const HomeEduCardIn = styled.div`
   height:296px;
-  width:342px;
+  width:334px;
   display: flex;
   text-align: center;
   align-items: center;

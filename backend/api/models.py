@@ -2,7 +2,7 @@ from django.db import models
 
 
 def upload_path(instance, filename):
-    return '/'.join(['isse', str(instance.title), filename])
+    return '/'.join(['isse', str(instance.title), filename], '/')
 
 
 # Create your models here.

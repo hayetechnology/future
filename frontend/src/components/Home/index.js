@@ -1,9 +1,9 @@
-import React from 'react';
+
 import Video from '../../videos/video.mp4';
 import GradPhoto from '../../images/MyPhoto.JPG';
 import AwardPhoto from '../../images/Award.png';
 import EduPhoto from '../../images/Education.png';
-
+import React from 'react';
 import {
   HomeContainer,
   HomeBg,
@@ -26,15 +26,13 @@ import {
   HomeEduAwardP,
   HomeAwardCard,
   HomeAwardCardIn,
-  HomeAwardIcon  
+  HomeAwardIcon,
+  NavLinks  
 } from './HomeElements';
 
   function HomeSection() {
+   
     
-    const downloadresume = () => {
-      
-    }
-  
     return (
     <HomeContainer id='home'>
       <HomeBg>
@@ -49,7 +47,7 @@ import {
             </HomePhotoCard>
             <HomeResumeCard>
               <HomeResumeCardIn>
-               <HomeButtonD onClick ={downloadresume}> DOWNLOAD RESUME/CV<HomeDownloadIcon/></HomeButtonD>
+               <NavLinks><HomeButtonD to='/resume'>VIEW OR DOWNLOAD RESUME/CV<HomeDownloadIcon/></HomeButtonD></NavLinks>
               </HomeResumeCardIn> 
             </HomeResumeCard>
           </HomeLeft> 

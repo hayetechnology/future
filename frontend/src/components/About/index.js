@@ -33,17 +33,16 @@ const About = () => {
           <AboutMiddleCard>
             <AboutMiddleCardIn>
               <AboutTopH2>
-                The future1community vision was realized in 2016 when Mr. Gospel Gordah realized an unusual statistic 
-                regarding Minnesota. Our state has zero minorty atheletic clubs. In other states you will always find one or two
-                minorty operated sports clubs.
+                My tech journey started when I was a kid. I started by reformatting and installing windows for my neighbors. 
+                6 years later I bought my first gaming laptop which I ran linux commands
               </AboutTopH2>
             </AboutMiddleCardIn>
           </AboutMiddleCard>
           <AboutBottomCard>
             <AboutBottomCardIn>
               <AboutBottomH2>
-                Our hopes is to make Minnesota leader in having the most minorty sports club. We hope to accomplish this feat through
-                obtaining large federal grants for minorty charter schools, and taking a hands on approach.
+                As far as professional exprience goes, I have the most exprience with Java, Python, Linux 
+                and MySQL
               </AboutBottomH2>
             </AboutBottomCardIn>
           </AboutBottomCard>

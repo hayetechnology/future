@@ -32,7 +32,7 @@ const[isClicked, setIsClicked] = useState(false)
 function sendEmail(e) {
   e.preventDefault();
   setIsClicked(true)
-  emailjs.sendForm('service_fgze8ka', 'template_4f0cg4i', e.target, 'user_Z9BYkT5Th267Tx57sTwdH')
+  emailjs.sendForm('service_cvjj87b', 'template_rz90717', e.target, 'user_AMUsjjCgbS0B6LBvxgSOl')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
@@ -67,22 +67,22 @@ function sendEmail(e) {
               <ContIn> 
               <ContSub>
                 <FormLabel For='email'>Email</FormLabel>
-                <FormInput type='text' name='email' required />
+                <FormInput type='text' name='email'  />
               </ContSub>
               </ContIn>
               <Cont>
               <ContRight> 
-                <FormLabel For='business'>Company/Orginaztion</FormLabel>
-                <FormInput type='text' name='business' required />
+                <FormLabel For='company-name'>Company Name</FormLabel>
+                <FormInput type='text' name='company-name' required />
               </ContRight>
               <ContLeft>
                 <FormLabel For='phone'>Phone</FormLabel>
-                <FormInput type='text' name='phone' required />
+                <FormInput type='text' name='phone'  />
               </ContLeft>
               </Cont>
               <ContSub>
-                <FormLabel For='subject'>Subject</FormLabel>
-                <FormInput type='text' name='subject' required />
+                <FormLabel For='title'>Your Title</FormLabel>
+                <FormInput type='text' name='title' required />
               </ContSub>
               <ContIn>
                 <FormLabel For='message'>Message</FormLabel>

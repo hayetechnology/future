@@ -37,12 +37,6 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>issenur portfolio © 2021.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-                <FaInstagram />
-              </SocialIconLink>
               <SocialIconLink
                 href='/'
                 target='_blank'
@@ -50,13 +44,6 @@ const Footer = () => {
                 rel='noopener noreferrer'
               >
                 <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
-                target='_blank'
-                aria-label='Twitter'
-                href='/'
-              >
-                <FaTwitter />
               </SocialIconLink>
               <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
