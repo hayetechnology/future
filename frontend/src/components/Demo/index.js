@@ -20,13 +20,13 @@ const Demo = () => {
       <DemoWrapper>
       <DemoH1>Demos</DemoH1>
       <DemoWrapper2>
-        <DemoCardCont>
-          <DemoH2>Project 1</DemoH2>
-          <DemoIcon src={Icon1} />
-          <DemoP>
-            Description of Project
-          </DemoP>
-        </DemoCardCont>
+          <DemoCardCont>
+            <DemoH2>Project 1</DemoH2>
+            <DemoIcon src={Icon1} />
+            <DemoP>
+              Description of Project
+            </DemoP>
+          </DemoCardCont>
         <DemoCardCont>
           <DemoH2>Project 2</DemoH2>
           <DemoIcon src={Icon2}/>

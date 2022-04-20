@@ -64,6 +64,10 @@ function sendEmail(e) {
                 <FormInputLName type='text' name='lname' required />
               </ContRight>
               </Cont>
+              <ContSub>
+                <FormLabel For='title'>Position/Title</FormLabel>
+                <FormInput type='text' name='title' required />
+              </ContSub>
               <ContIn> 
               <ContSub>
                 <FormLabel For='email'>Email</FormLabel>
@@ -80,10 +84,6 @@ function sendEmail(e) {
                 <FormInput type='text' name='phone'  />
               </ContLeft>
               </Cont>
-              <ContSub>
-                <FormLabel For='title'>Your Title</FormLabel>
-                <FormInput type='text' name='title' required />
-              </ContSub>
               <ContIn>
                 <FormLabel For='message'>Message</FormLabel>
                 <FormTextArea type='text' name='message' required />
