@@ -11,7 +11,8 @@ const Resume = () => {
       responseType: 'blob', 
     }).then((response) => {
       const blob = new Blob([response.data],{type: 'application/pdf'});
-      const fileURL = URL.createObjectURL(blob);   
+      const file = new File([blob], 'issenur', {type: 'application/pdf', lastModified: Date.now()});
+      const fileURL = URL.createObjectURL(file);   
       window.open(fileURL);
     });
   }, []);
