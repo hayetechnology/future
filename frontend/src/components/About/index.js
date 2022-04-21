@@ -55,7 +55,6 @@ const About = () => {
       </AboutWrapper>     
     </AboutContainer>
     </Parallax>
-    
   );
 };
 

@@ -6,12 +6,10 @@ from .models import Resume
 from .serializers import ResumeSerializer
 from rest_framework import viewsets
 
-
+# View function which sends a file response of the resume object when the API endpoint is hit
 def download(request):
     response = FileResponse(open('media/isse/r1/Isse_Nur_Resume.pdf', 'rb'))
     return response
 
-# class ResumeViewSet(viewsets.ModelViewSet):
-#     queryset = Resume.objects.all()
-#     serializer_class = ResumeSerializer
+
 

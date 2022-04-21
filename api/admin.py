@@ -1,9 +1,7 @@
 from django.contrib import admin
 from .models import Resume
 
-# Register your models here.
-
-
+# Registering Resume Model to be filtered and displayed in the admin panel.
 @admin.register(Resume)
 class ResumeModel(admin.ModelAdmin):
     list_filter = ('title', 'resume_pdf')

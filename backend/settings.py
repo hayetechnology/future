@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-hoic0vblynfzwg2%kg6%yzulsm6l(jgm2a906z+x6%n3_(w)fy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['3.14.70.27', 'issenur.com', 'ec2-3-14-70-27.us-east-2.compute.amazonaws.com', 'localhost', '127.0.0.1']
+#Allowed Hosts
+ALLOWED_HOSTS = ['3.14.70.27','www.issenur.com', 'issenur.com', 'ec2-3-14-70-27.us-east-2.compute.amazonaws.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'api',
 ]
 
+#Added corsheaders
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -52,7 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+#Added .co variation because of error referencing www.issenur.co
 CORS_ALLOWED_ORIGINS = [
 
     "https://www.issenur.com",
@@ -83,7 +85,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 
-# Database
+# postgreSQL Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
