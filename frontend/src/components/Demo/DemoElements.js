@@ -8,7 +8,7 @@ export const DemoContainer = styled.div`
   padding: 0px;
   margin: 0px;
   background-color: fff;
-  //background-color: #ffb8b8;
+  background-color: #ffb8b8;
   //lightred
   
   @media screen and (max-width: 880px) {
