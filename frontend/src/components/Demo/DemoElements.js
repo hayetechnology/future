@@ -8,7 +8,7 @@ export const DemoContainer = styled.div`
   padding: 0px;
   margin: 0px;
   background-color: fff;
-  background-color: #ffb8b8;
+  //background-color: #ffb8b8;
   //lightred
   
   @media screen and (max-width: 880px) {
@@ -35,7 +35,7 @@ export const DemoWrapper = styled.div`
   align-items: center;
   padding: 0px 0px 20px 0px;
   margin: 0px;
-  background-color:#ffbe85;
+  //background-color:#ffbe85;
   //lightorange
 
   @media screen and (max-width: 880px) {
