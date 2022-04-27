@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon1 from '../../images/github1.png';
 import {
   GithubContainer,
   GithubH1,
@@ -13,13 +14,13 @@ const Github = () => {
 
   return (
     <GithubContainer id='github'>
-      <GithubH1>Github</GithubH1>
+      <GithubH1>My Portfolio</GithubH1>
       <GithubWrapper>
         <GithubCard>
-          <GithubIcon/>
-          <GithubH2>P1</GithubH2>
+          <GithubIcon src ={Icon1}/>
+          <GithubH2>My Portfolio</GithubH2>
           <GithubP>
-            Project 1
+            Github Source Code
           </GithubP>
         </GithubCard>
         <GithubCard>

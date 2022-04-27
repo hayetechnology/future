@@ -14,8 +14,7 @@ import {
   DemoP
 } from './DemoElements';
 /**
- * Function Component which returns links to all four projects
- * and their git repos.
+ * Function Component which returns a projects page
  * @returns 
  */
 const Demo = () => {
@@ -28,7 +27,7 @@ const Demo = () => {
             <DemoH2>Portfolio</DemoH2>
             <DemoIcon src={Icon1} />
             <DemoP>
-            Python and Javascript Web Application
+            My Portfolio Built on Python and Javascript
             </DemoP>
           </DemoCardCont>
         <DemoCardCont>
