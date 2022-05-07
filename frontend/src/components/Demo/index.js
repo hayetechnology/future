@@ -18,13 +18,13 @@ const Demo = () => {
   return (
     <DemoContainer id='demo'>
       <DemoWrapper>
-      <DemoH1>Demos</DemoH1>
+      <DemoH1>Projects</DemoH1>
       <DemoWrapper2>
           <DemoCardCont>
-            <DemoH2>Project 1</DemoH2>
+            <DemoH2>Portfolio</DemoH2>
             <DemoIcon src={Icon1} />
             <DemoP>
-              Description of Project
+            My Portfolio Built on Python and Javascript
             </DemoP>
           </DemoCardCont>
         <DemoCardCont>
