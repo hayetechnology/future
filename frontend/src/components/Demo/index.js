@@ -13,10 +13,7 @@ import {
   DemoH2,
   DemoP
 } from './DemoElements';
-/**
- * Function Component which returns a projects page
- * @returns 
- */
+
 const Demo = () => {
   return (
     <DemoContainer id='demo'>
