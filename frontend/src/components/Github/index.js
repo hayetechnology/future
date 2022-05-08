@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon1 from '../../images/github1.png';
 import {
   GithubContainer,
   GithubH1,
@@ -16,31 +17,31 @@ const Github = () => {
       <GithubH1>Github</GithubH1>
       <GithubWrapper>
         <GithubCard>
-          <GithubIcon/>
-          <GithubH2>P1</GithubH2>
+          <GithubIcon src ={Icon1}/>
+          <GithubH2>MyPortfolio</GithubH2>
           <GithubP>
-            Project 1
+            Github Source Code for MyPortfolio
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon />
           <GithubH2>P2</GithubH2>
           <GithubP>
-            Project 2
+            Coming Soon
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon/>
           <GithubH2>P3</GithubH2>
           <GithubP>
-           Project 3
+           Coming Soon
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon/>
           <GithubH2>P4</GithubH2>
           <GithubP>
-            Project 4
+            Coming Soon
           </GithubP>
         </GithubCard>
       </GithubWrapper>
