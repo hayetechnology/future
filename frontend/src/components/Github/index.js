@@ -14,34 +14,34 @@ const Github = () => {
 
   return (
     <GithubContainer id='github'>
-      <GithubH1>My Portfolio</GithubH1>
+      <GithubH1>Github</GithubH1>
       <GithubWrapper>
         <GithubCard>
           <GithubIcon src ={Icon1}/>
-          <GithubH2>My Portfolio</GithubH2>
+          <GithubH2>MyPortfolio</GithubH2>
           <GithubP>
-            Github Source Code
+            Github Source Code for MyPortfolio
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon />
           <GithubH2>P2</GithubH2>
           <GithubP>
-            Project 2
+            Coming Soon
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon/>
           <GithubH2>P3</GithubH2>
           <GithubP>
-           Project 3
+           Coming Soon
           </GithubP>
         </GithubCard>
         <GithubCard>
           <GithubIcon/>
           <GithubH2>P4</GithubH2>
           <GithubP>
-            Project 4
+            Coming Soon
           </GithubP>
         </GithubCard>
       </GithubWrapper>

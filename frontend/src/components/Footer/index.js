@@ -32,7 +32,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               <FooterIcon src={Icon1}/>
             </SocialLogo>
-            <WebsiteRights>issenur portfolio © 2021.</WebsiteRights>
+            <WebsiteRights>issenur portfolio © 2022.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink
                 href='/'

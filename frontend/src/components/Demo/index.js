@@ -24,7 +24,7 @@ const Demo = () => {
             <DemoH2>Portfolio</DemoH2>
             <DemoIcon src={Icon1} />
             <DemoP>
-            My Portfolio Built on Python and Javascript
+            MyPortfolio Python and Javascript
             </DemoP>
           </DemoCardCont>
         <DemoCardCont>
