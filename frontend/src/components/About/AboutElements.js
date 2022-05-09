@@ -18,7 +18,7 @@ export const AboutContainer = styled.div`
     align-items: start;
     padding: 0px;
     margin: 0px;
-    //background-color:#ff52ee; 
+    background-color:#ff52ee; 
     //pink
   }
 `;
@@ -40,7 +40,7 @@ export const AboutWrapper = styled.div`
     align-items: start;
     padding:0px;
     margin: 0px;
-    //background-color:#002463; 
+    background-color:#002463; 
     //darkblue
   }
 `;
@@ -87,8 +87,8 @@ export const AboutMiddleCont = styled.div`
   flex-direction: column;
   padding: 0px;
   margin: 0px;
-  background-color: #0a0a0a;
-  //background-color: #3a0096; 
+  //background-color: #0a0a0a;
+  background-color: #3a0096; 
   //purpleblue
   }
 `;
@@ -112,7 +112,7 @@ export const AboutTopCont = styled.div`
     align-items: center;
     padding: 0px;
     margin-bottom: 16px;
-    //background-color:#d4a200;
+    background-color:#d4a200;
     //gold
   }
 `;
@@ -137,12 +137,11 @@ export const AboutMiddleCard = styled.div`
   height:190px;
   width:800px;
   display: flex;
-  text-align: center;
+  justify-content:center;
   align-items: center;
   flex-direction: column;
   border-radius: 8px;
-  margin-top: 2px;
-  margin-bottom: 1px;
+
   box-shadow:0px 0px 2px rgb(0, 0, 0);
   background-color:rgb(255, 255, 255);
   //background-color: #cfcfcf;
@@ -159,13 +158,13 @@ export const AboutMiddleCard = styled.div`
     margin-top: 2px;
     margin-bottom: 16px;
     box-shadow:0px 0px 2px rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
-    //background-color: #cfcfcf;
+    //background-color:rgb(255, 255, 255);
+    background-color: #cfcfcf;
     //lightgray
   }
 `;
 
-export const AboutMiddleCardIn = styled.div`
+/* export const AboutMiddleCardIn = styled.div`
   height:180px;
   width:786px;
   display: flex;
@@ -174,8 +173,8 @@ export const AboutMiddleCardIn = styled.div`
   flex-direction: column;
   border-radius: 8px;
   margin: 2px;
-  background-color:#dbdbdb;
-  //background-color: #00e817; 
+  //background-color:#dbdbdb;
+  background-color: #00e817; 
   //lightgreen
   
   @media screen and (max-width: 480px) {
@@ -190,6 +189,19 @@ export const AboutMiddleCardIn = styled.div`
     background-color:#dbdbdb;
     //background-color: #00e817; 
     //lightgreen
+  }
+`; */
+
+//This is replacing AboutMiddleCardin
+export const AboutMiddlePhotoIcon = styled.img`
+  height: 180px;
+  width: 786px;
+  border-radius: 10px;
+
+  @media screen and (max-width: 480px) {
+    height: 390px;
+    width: 230px;
+    border-radius: 10px;
   }
 `;
 
@@ -235,13 +247,13 @@ export const AboutBottomCard = styled.div`
     flex-direction: column;
     border-radius: 8px;
     box-shadow:0px 0px 2px rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
-    //background-color: #00e817; 
+    //background-color:rgb(255, 255, 255);
+    background-color: #00e817; 
     //lightgreen
     }
 `;
 
-export const AboutBottomCardIn = styled.div`
+/* export const AboutBottomCardIn = styled.div`
   height:180px;
   width:786px;
   display: flex;
@@ -250,8 +262,8 @@ export const AboutBottomCardIn = styled.div`
   flex-direction: column;
   border-radius: 8px;
   margin: 2px;
-  background-color:#dbdbdb;
-  //background-color: #00e817; 
+  //background-color:#dbdbdb;
+  background-color: #00e817; 
   //lightgreen
   
   @media screen and (max-width: 480px) {
@@ -265,7 +277,20 @@ export const AboutBottomCardIn = styled.div`
     margin: 2px;
     background-color:#dbdbdb;
     //background-color: #00e817; 
-    //lightgree
+    //lightgreen
+  }
+`; */
+
+//This is replacing AboutBottomCardin
+export const AboutBottomPhotoIcon = styled.img`
+  height: 180px;
+  width: 786px;
+  border-radius: 10px;
+
+  @media screen and (max-width: 480px) {
+    height: 390px;
+    width: 230px;
+    border-radius: 10px;
   }
 `;
 
@@ -309,8 +334,8 @@ export const AboutRightCont = styled.div`
     align-items: center;
     padding: 0px 0px 0px 0px;
     margin: 0px;
-    background-color: #0a0a0a;
-    //background-color: #fcfc03;
+    //background-color: #0a0a0a;
+    background-color: #fcfc03;
     //yellow
   }
 `;
@@ -326,3 +351,7 @@ export const AboutHiddenIcon = styled.img`
     visibility: hidden;
   }
 `;
+
+
+
+
