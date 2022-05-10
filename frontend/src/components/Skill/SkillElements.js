@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const AboutContainer = styled.div`
+export const SkillContainer = styled.div`
   min-height: 800px;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const AboutWrapper = styled.div`
+export const SkillWrapper = styled.div`
   max-height: 644px;
   height: 644px;
   display: flex;
@@ -45,7 +45,7 @@ export const AboutWrapper = styled.div`
   }
 `;
 
-export const AboutLeftCont = styled.div`
+export const SkillLeftCont = styled.div`
   max-height:644px;
   height: auto;
   width: 2700px;
@@ -63,7 +63,7 @@ export const AboutLeftCont = styled.div`
   }
 `;
 
-export const AboutMiddleCont = styled.div`
+export const SkillMiddleCont = styled.div`
   height: auto;
   width: 850px;
   display: grid;
@@ -93,7 +93,7 @@ export const AboutMiddleCont = styled.div`
   }
 `;
 
-export const AboutTopCont = styled.div`
+export const SkillTopCont = styled.div`
   height:100%;
   width:100%;
   display: flex;
@@ -117,7 +117,7 @@ export const AboutTopCont = styled.div`
   }
 `;
 
-export const AboutH1 = styled.h1`
+export const SkillH1 = styled.h1`
   font-family:  'Space Mono', monospace;
   font-size: 2.2rem;
   padding: 0px 0px 0px 0px;
@@ -133,7 +133,7 @@ export const AboutH1 = styled.h1`
   }
 `;
 
-export const AboutMiddleCard = styled.div`
+export const SkillMiddleCard = styled.div`
   height:190px;
   width:800px;
   display: flex;
@@ -163,7 +163,7 @@ export const AboutMiddleCard = styled.div`
   }
 `;
 
-export const AboutMiddlePhotoIconW = styled.img`
+export const SkillMiddlePhotoIconW = styled.img`
   height: 180px;
   width: 786px;
   display: flex;
@@ -177,7 +177,7 @@ export const AboutMiddlePhotoIconW = styled.img`
   }
 `;
 
-export const AboutMiddlePhotoIconL = styled.img`
+export const SkillMiddlePhotoIconL = styled.img`
   display: none;
 
   @media screen and (max-width: 480px) {
@@ -192,7 +192,7 @@ export const AboutMiddlePhotoIconL = styled.img`
 
 
 
-export const AboutBottomCard = styled.div`
+export const SkillBottomCard = styled.div`
   height:190px;
   width:800px;
   display: flex;
@@ -220,7 +220,7 @@ export const AboutBottomCard = styled.div`
     }
 `;
 
-export const AboutBottomPhotoIconW = styled.img`
+export const SkillBottomPhotoIconW = styled.img`
   height:180px;
   width:786px;
   display: flex;
@@ -235,7 +235,7 @@ export const AboutBottomPhotoIconW = styled.img`
   }
 `;
 
-export const AboutBottomPhotoIconL = styled.img`
+export const SkillBottomPhotoIconL = styled.img`
   display:none;
 
   @media screen and (max-width: 480px) {
@@ -250,7 +250,7 @@ export const AboutBottomPhotoIconL = styled.img`
 `;
 
 
-export const AboutRightCont = styled.div`
+export const SkillRightCont = styled.div`
   height:auto;
   width:2700px;
   display: flex;
@@ -276,7 +276,7 @@ export const AboutRightCont = styled.div`
   }
 `;
 
-export const AboutHiddenIcon = styled.img`
+export const SkillHiddenIcon = styled.img`
   height:642px;
   width:220px;
   visibility: hidden;
