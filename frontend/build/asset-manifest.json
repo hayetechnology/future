@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.d7da34c1.css",
-    "main.js": "/static/js/main.02243003.js",
+    "main.js": "/static/js/main.560a31c6.js",
     "static/media/video.mp4": "/static/media/video.f17eb81628aca4eee1d6.mp4",
     "static/media/MyPhoto.JPG": "/static/media/MyPhoto.a7283954179ee56d036d.JPG",
-    "static/media/BackgroundParaS.jpg": "/static/media/BackgroundParaS.692ae256d231eceb0cd6.jpg",
+    "static/media/BackgroundPara.jpg": "/static/media/BackgroundPara.692ae256d231eceb0cd6.jpg",
     "static/media/Proj1.png": "/static/media/Proj1.de80899d08d28ba6b1fc.png",
     "static/media/github1.png": "/static/media/github1.e479ac3036968135cd70.png",
     "static/media/Award.png": "/static/media/Award.592ba81b5faf59e45a5f.png",
+    "static/media/AboutTechW.png": "/static/media/AboutTechW.317acb2ea88f637e5423.png",
+    "static/media/AboutLangW.png": "/static/media/AboutLangW.cc5d5ae1dc1d14ca172d.png",
     "static/media/Proj3.png": "/static/media/Proj3.09b9c429f8b555629c15.png",
+    "static/media/AboutTechL.png": "/static/media/AboutTechL.00c7dde648721a68372d.png",
     "static/media/Proj2.png": "/static/media/Proj2.682ad61c59d21ce57aff.png",
     "static/media/Proj4.png": "/static/media/Proj4.c5af2e828cff65d76144.png",
+    "static/media/AboutLangL.png": "/static/media/AboutLangL.8e82556b6d6f6a07007f.png",
     "static/media/Education.png": "/static/media/Education.db9aff7360acc15f9f6e.png",
     "index.html": "/index.html",
     "main.d7da34c1.css.map": "/static/css/main.d7da34c1.css.map",
-    "main.02243003.js.map": "/static/js/main.02243003.js.map"
+    "main.560a31c6.js.map": "/static/js/main.560a31c6.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.02243003.js"
+    "static/js/main.560a31c6.js"
   ]
 }
