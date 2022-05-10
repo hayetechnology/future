@@ -1,9 +1,11 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import VerticalName from '../../images/NameVertical.png';
-import BackgroundPicS from '../../images/BackgroundParaS.jpg';
-import LangPhoto from '../../images/AboutLang.png';
-import TechPhoto from '../../images/AboutTech.png';
+import BackgroundPic from '../../images/BackgroundPara.jpg';
+import LangPhotoW from '../../images/AboutLangW.png';
+import TechPhotoW from '../../images/AboutTechW.png';
+import LangPhotoL from '../../images/AboutLangL.png';
+import TechPhotoL from '../../images/AboutTechL.png';
 import {
   AboutContainer,
   AboutWrapper,
@@ -12,31 +14,37 @@ import {
   AboutTopCont,
   AboutH1,
   AboutMiddleCard,
-  AboutMiddlePhotoIcon,
+  AboutMiddlePhotoIconW,
+  AboutMiddlePhotoIconL,
   AboutBottomCard,
-  AboutBottomPhotoIcon,
+  AboutBottomPhotoIconW,
+  AboutBottomPhotoIconL,
   AboutRightCont,
   AboutHiddenIcon
 } from './AboutElements';
 
 const About = () => {
   return (
-    <Parallax bgImage={BackgroundPicS} strength={500}>
+    <Parallax bgImage={BackgroundPic} strength={800}>
     <AboutContainer id='about'>
       <AboutWrapper>
         <AboutLeftCont>  
         </AboutLeftCont>
         <AboutMiddleCont>
           <AboutTopCont>
-            <AboutH1>Skills</AboutH1>
+            <AboutH1>Skills Section</AboutH1>
           </AboutTopCont>
           <AboutMiddleCard>
-            <AboutMiddlePhotoIcon src={LangPhoto}>
-            </AboutMiddlePhotoIcon>
+            <AboutMiddlePhotoIconW src={LangPhotoW}>
+            </AboutMiddlePhotoIconW>
+            <AboutMiddlePhotoIconL src={LangPhotoL}>
+            </AboutMiddlePhotoIconL>
           </AboutMiddleCard>
           <AboutBottomCard>
-            <AboutBottomPhotoIcon src={TechPhoto}>
-            </AboutBottomPhotoIcon>
+            <AboutBottomPhotoIconW src={TechPhotoW}>
+            </AboutBottomPhotoIconW>
+            <AboutBottomPhotoIconL src={TechPhotoL}>
+            </AboutBottomPhotoIconL>
           </AboutBottomCard>
         </AboutMiddleCont> 
         <AboutRightCont>
