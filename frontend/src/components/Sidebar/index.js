@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink
-            to='about'
+            to='skill'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -26,10 +26,10 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            About
+            Skills
           </SidebarLink>
           <SidebarLink
-            to='demo'
+            to='project'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Demos
+            Projects
           </SidebarLink>
           <SidebarLink
             to='github'

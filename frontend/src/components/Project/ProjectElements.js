@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const DemoContainer = styled.div`
+export const ProjectContainer = styled.div`
   height:1000px;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ export const DemoContainer = styled.div`
   }
 `;
 
-export const DemoWrapper = styled.div`
+export const ProjectWrapper = styled.div`
   height: 1000px;
   width: 1500px;
   display: flex;
@@ -53,7 +53,7 @@ export const DemoWrapper = styled.div`
   }
 `;
 
-export const DemoH1 = styled.h1`
+export const ProjectH1 = styled.h1`
   font-family:  'Space Mono', monospace;
   font-size: 2.5rem;
   color: #121212;
@@ -71,7 +71,7 @@ export const DemoH1 = styled.h1`
   } 
 `;
 
-export const DemoWrapper2 = styled.div`
+export const ProjectWrapper2 = styled.div`
   display:flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -92,7 +92,7 @@ export const DemoWrapper2 = styled.div`
   }
 `;
 
-export const DemoCardCont = styled.div`
+export const ProjectCardCont = styled.div`
   display: flex;
   height: 100%;
   width: 22%;
@@ -125,7 +125,7 @@ export const DemoCardCont = styled.div`
   }
 `;
 
-export const DemoIcon = styled.img`
+export const ProjectIcon = styled.img`
   height: 192px;
   width: 248px;
   padding: 0px;
@@ -144,7 +144,7 @@ export const DemoIcon = styled.img`
   }
 `;
 
-export const DemoH2 = styled.h2`
+export const ProjectH2 = styled.h2`
   font-family:  'Space Mono', monospace;
   text-align: center;
   font-size: 1rem;
@@ -167,7 +167,7 @@ export const DemoH2 = styled.h2`
   }
 `;
 
-export const DemoP = styled.p`
+export const ProjectP = styled.p`
   font-family:  'Space Mono', monospace;
   text-align: center;
   height: 290px;

@@ -1,8 +1,8 @@
 
 import Video from '../../videos/video.mp4';
-import GradPhoto from '../../images/MyPhoto.JPG';
-import AwardPhoto from '../../images/Award.png';
-import EduPhoto from '../../images/Education.png';
+import GradPhoto from '../../images/HomeMyPhoto.JPG';
+import AwardPhoto from '../../images/HomeAward.png';
+import EduPhoto from '../../images/HomeEducation.png';
 import React from 'react';
 import {
   HomeContainer,
