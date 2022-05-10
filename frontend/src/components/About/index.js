@@ -1,7 +1,11 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import VerticalName from '../../images/NameVertical.png';
-import BackgroundPicS from '../../images/BackgroundParaS.jpg';
+import BackgroundPic from '../../images/BackgroundPara.jpg';
+import LangPhotoW from '../../images/AboutLangW.png';
+import TechPhotoW from '../../images/AboutTechW.png';
+import LangPhotoL from '../../images/AboutLangL.png';
+import TechPhotoL from '../../images/AboutTechL.png';
 import {
   AboutContainer,
   AboutWrapper,
@@ -10,41 +14,37 @@ import {
   AboutTopCont,
   AboutH1,
   AboutMiddleCard,
-  AboutMiddleCardIn,
-  AboutTopH2,
+  AboutMiddlePhotoIconW,
+  AboutMiddlePhotoIconL,
   AboutBottomCard,
-  AboutBottomCardIn,
-  AboutBottomH2,
+  AboutBottomPhotoIconW,
+  AboutBottomPhotoIconL,
   AboutRightCont,
   AboutHiddenIcon
 } from './AboutElements';
 
 const About = () => {
   return (
-    <Parallax bgImage={BackgroundPicS} strength={500}>
+    <Parallax bgImage={BackgroundPic} strength={800}>
     <AboutContainer id='about'>
       <AboutWrapper>
         <AboutLeftCont>  
         </AboutLeftCont>
         <AboutMiddleCont>
           <AboutTopCont>
-            <AboutH1>My Story</AboutH1>
+            <AboutH1>Skills Section</AboutH1>
           </AboutTopCont>
           <AboutMiddleCard>
-            <AboutMiddleCardIn>
-              <AboutTopH2>
-                My tech journey started when I was a kid. I started by reformatting and installing windows for my neighbors. 
-                6 years later I bought my first gaming laptop which I ran linux commands
-              </AboutTopH2>
-            </AboutMiddleCardIn>
+            <AboutMiddlePhotoIconW src={LangPhotoW}>
+            </AboutMiddlePhotoIconW>
+            <AboutMiddlePhotoIconL src={LangPhotoL}>
+            </AboutMiddlePhotoIconL>
           </AboutMiddleCard>
           <AboutBottomCard>
-            <AboutBottomCardIn>
-              <AboutBottomH2>
-                As far as professional exprience goes, I have the most exprience with Java, Python, Linux 
-                and MySQL
-              </AboutBottomH2>
-            </AboutBottomCardIn>
+            <AboutBottomPhotoIconW src={TechPhotoW}>
+            </AboutBottomPhotoIconW>
+            <AboutBottomPhotoIconL src={TechPhotoL}>
+            </AboutBottomPhotoIconL>
           </AboutBottomCard>
         </AboutMiddleCont> 
         <AboutRightCont>
