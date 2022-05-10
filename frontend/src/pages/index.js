@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import Home from '../components/Home';
-import About from '../components/About';
+import Skill from '../components/Skill';
 import Github from '../components/Github';
-import Demo from '../components/Demo';
+import Project from '../components/Project';
 
 function Home1() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +19,8 @@ function Home1() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Home/>
-      <About/>
-      <Demo/>
+      <Skill/>
+      <Project/>
       <Github /> 
       <Footer />
     </React.Fragment>
