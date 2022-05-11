@@ -47,7 +47,7 @@ import {
             </HomePhotoCard>
             <HomeResumeCard>
               <HomeResumeCardIn>
-               <NavLinks><HomeButtonD to='/resume'>VIEW OR DOWNLOAD RESUME/CV<HomeDownloadIcon/></HomeButtonD></NavLinks>
+               <NavLinks><HomeButtonD to='/resume'>DOWNLOAD OR VIEW RESUME/CV<HomeDownloadIcon/></HomeButtonD></NavLinks>
               </HomeResumeCardIn> 
             </HomeResumeCard>
           </HomeLeft> 
