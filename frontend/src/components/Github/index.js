@@ -17,14 +17,14 @@ const Github = () => {
       <GithubH1>Github</GithubH1>
       <GithubWrapper>
         <GithubCard>
-          <GithubIcon src ={Icon1}/>
+          <GithubIcon/>
           <GithubH2>MyPortfolio</GithubH2>
           <GithubP>
             Github Source Code for MyPortfolio
           </GithubP>
         </GithubCard>
         <GithubCard>
-          <GithubIcon />
+          <GithubIcon/>
           <GithubH2>P2</GithubH2>
           <GithubP>
             Coming Soon
