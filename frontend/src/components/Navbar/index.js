@@ -70,18 +70,6 @@ const Navbar = ({ toggle }) => {
                   Projects
                 </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks
-                  to='github'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Github
-                </NavLinks>
-              </NavItem>
               <NavItem >
                 <NavLinks>
                   <NavBtn onClick={toggleHome} to='/contact'>
