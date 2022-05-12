@@ -20,7 +20,7 @@ const Github = () => {
           <GithubIcon/>
           <GithubH2>MyPortfolio</GithubH2>
           <GithubP>
-            Github Source Code for MyPortfolio
+            Source Code
           </GithubP>
         </GithubCard>
         <GithubCard>
