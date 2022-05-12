@@ -39,17 +39,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Projects
           </SidebarLink>
-          <SidebarLink
-            to='github'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Github
-          </SidebarLink>
           <SidebarLink2
             to='/contact'
             onClick={toggle}

@@ -40,8 +40,6 @@ function sendEmail(e) {
     });
     e.target.reset()
 }
-
-
   return (
     <React.Fragment>
       <ContactContainer>
@@ -57,36 +55,36 @@ function sendEmail(e) {
               <Cont>
               <ContLeft>
                 <FormLabel For='fname'>First</FormLabel>
-                <FormInputFName type='text' name='fname' required />
+                <FormInputFName type='text' name='fname' required/>
               </ContLeft>
               <ContRight>
                 <FormLabel For='lname'>Last</FormLabel>
-                <FormInputLName type='text' name='lname' required />
+                <FormInputLName type='text' name='lname'/>
               </ContRight>
               </Cont>
               <ContSub>
                 <FormLabel For='title'>Position/Title</FormLabel>
-                <FormInput type='text' name='title' required />
+                <FormInput type='text' name='title'/>
               </ContSub>
               <ContIn> 
               <ContSub>
                 <FormLabel For='email'>Email</FormLabel>
-                <FormInput type='text' name='email'  />
+                <FormInput type='text' name='email'/>
               </ContSub>
               </ContIn>
               <Cont>
               <ContRight> 
                 <FormLabel For='company-name'>Company Name</FormLabel>
-                <FormInput type='text' name='company-name' required />
+                <FormInput type='text' name='company-name'/>
               </ContRight>
               <ContLeft>
                 <FormLabel For='phone'>Phone</FormLabel>
-                <FormInput type='text' name='phone'  />
+                <FormInput type='text' name='phone'/>
               </ContLeft>
               </Cont>
               <ContIn>
                 <FormLabel For='message'>Message</FormLabel>
-                <FormTextArea type='text' name='message' required />
+                <FormTextArea type='text' name='message'/>
               </ContIn>
               <FormButton type='submit'>Submit</FormButton>
               <ContMessage>{isClicked ?  <Text>Message Sent Successfully! Thank You</Text>: <Text></Text> }</ContMessage>

@@ -4,7 +4,6 @@ import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import Home from '../components/Home';
 import Skill from '../components/Skill';
-import Github from '../components/Github';
 import Project from '../components/Project';
 
 function Home1() {
@@ -21,7 +20,6 @@ function Home1() {
       <Home/>
       <Skill/>
       <Project/>
-      <Github /> 
       <Footer />
     </React.Fragment>
   );
