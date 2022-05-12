@@ -31,7 +31,7 @@ const Project = () => {
               <ProjectDemoButton>Demo</ProjectDemoButton>
               <ProjectGitButton onClick={openGitPortfolio}>Github</ProjectGitButton>
             </ProjectForm>
-            <ProjectP>Python javascript django REST framework full stack web application.</ProjectP>
+            <ProjectP>Full stack web application built on python, javascript, djangoREST Framework and PostgreSQL</ProjectP>
         </ProjectCardCont>
         <ProjectCardCont>
             <ProjectH2>Coming Soon</ProjectH2>

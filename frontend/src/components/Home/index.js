@@ -56,7 +56,7 @@ import {
               <HomeEduCardIn>     
                 <HomeEduIcon src={EduPhoto}></HomeEduIcon>
                 <HomeEduAwardP>Degree: BS in Computer Science</HomeEduAwardP>
-                <HomeEduAwardP>Graduation Date: Jan 2021</HomeEduAwardP>
+                <HomeEduAwardP>Graduation Date: Dec 2020</HomeEduAwardP>
               </HomeEduCardIn>
               <HomeEduAwardTitle>Education</HomeEduAwardTitle>
             </HomeEduCard>

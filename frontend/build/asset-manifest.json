@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7da34c1.css",
-    "main.js": "/static/js/main.a637a2a3.js",
+    "main.js": "/static/js/main.33acb6e2.js",
     "static/media/video.mp4": "/static/media/video.f17eb81628aca4eee1d6.mp4",
     "static/media/HomeMyPhoto.JPG": "/static/media/HomeMyPhoto.a7283954179ee56d036d.JPG",
     "static/media/SkillBackgroundPara.jpg": "/static/media/SkillBackgroundPara.692ae256d231eceb0cd6.jpg",
@@ -13,10 +13,10 @@
     "static/media/HomeEducation.png": "/static/media/HomeEducation.db9aff7360acc15f9f6e.png",
     "index.html": "/index.html",
     "main.d7da34c1.css.map": "/static/css/main.d7da34c1.css.map",
-    "main.a637a2a3.js.map": "/static/js/main.a637a2a3.js.map"
+    "main.33acb6e2.js.map": "/static/js/main.33acb6e2.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.a637a2a3.js"
+    "static/js/main.33acb6e2.js"
   ]
 }
