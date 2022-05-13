@@ -223,7 +223,7 @@ export const ProjectGitButton = styled.button`
   @media screen and (max-width: 880px) {
     font-family: 'Space Mono', monospace;
     font-weight: 530;
-    background-color: #21ffb9;
+    background-color: #8c0808;
     padding: 12px 108px;
     margin: 2px 0px;
     border: none;
