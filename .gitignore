@@ -30,12 +30,6 @@ coverage/
 .vscode
 
 *.db
-frontend/build/static/js/main.02243003.js
-frontend/build/static/js/main.02243003.js.LICENSE.txt
-frontend/build/static/js/main.02243003.js.map
-frontend/build/static/js/main.d818772b.js
-frontend/build/static/js/main.d818772b.js.LICENSE.txt
-frontend/build/static/js/main.d818772b.js.map
-frontend/node_modules/.cache/.eslintcache
-frontend/node_modules/.cache/.eslintcache
-frontend/node_modules/.cache/.eslintcache
+frontend/build/*
+frontend/node_modules/*
+
